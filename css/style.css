@@ -1,0 +1,14 @@
+header {
+    height: 100px;
+}
+
+header h1 {
+    font-size: 30px;
+    color: pink;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+#menu {
+    background-color: white !important;
+}
