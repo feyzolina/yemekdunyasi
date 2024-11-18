@@ -4,11 +4,41 @@ header {
 
 header h1 {
     font-size: 30px;
-    color: pink;
+    color: red;
     letter-spacing: 5px;
     font-weight: bold;
 }
 
 #menu {
     background-color: white !important;
+}
+
+.carousel-item img {
+    height: 400px;
+}
+
+.kucuk_img {
+    height: 120px;
+}
+
+.buyuk_img {
+    height: 270px;
+}
+footer nav {
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .carousel-item img {
+        height: auto;
+    }
+
+    .kucuk_img {
+        height: 70px;
+    }
+
+    .buyuk_img {
+        height: auto;
+    }
+    
 }
